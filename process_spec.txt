@@ -1,0 +1,92 @@
+Proposal
+	Collect Inputs
+		CLIENT / CE / CSM
+			Locate Site
+			Confirm Site
+			Select Services
+			Select Service Options
+	Validate Request
+		CSM
+			Verify Site
+			Verify Site Data
+			Confirm Service Options
+			CQ Proposals Excluded
+	Price Services
+		CSM
+			Fixed Price
+			Internal Estimate
+			Launch to CONNECT
+			Review Bids
+			CQ Proposal Automated
+	Deliver Proposal
+		CSM
+			Assemble Proposal 
+			Get CE Approval
+			Deliver Proposal
+			Follow-Up
+			CQ Proposal Automated
+	Client Authorization
+		CLIENT
+			Confirm Sites
+			Confirm Services
+			Sign Proposal
+			Deliver Signed Proposal
+			CQ Proposal Awarded
+	Confirmation
+		CSM
+			Review CQ Request?
+			Award Proposal
+			Deliver Confirmation of Receipt
+Fulfillment
+	Kickoff Project 
+		PRODUCTION COORDINATOR
+			Verify Site (CQ)?
+			Update Order Status
+			Assign Tasks
+			Order Data/Documents
+	Staff Services
+		STAFFING COORDINATOR
+			Engage Network
+			Select Resources
+			Deliver ATP
+	Schedule Site Visit
+		PRODUCTION COORDINATOR
+			Collect PA Availability
+			Coordinate Site Visit
+			Manage Scheduling Exceptions
+	Perform Site Visit
+		AS STAFFED
+			Confirm Completion
+			Deliver Report Content
+	Author Report
+		AS STAFFED
+			Assemble Data
+			Produce Preliminary
+	Quality Control
+		FULFILLMENT
+			Perform Quality Checks
+			Iterate on Revisions
+Delivery
+	Deliver Product
+		PRODUCTION COORDINATOR
+			Deliver Preliminary 
+	Deliver Invoice 
+		ACCOUNTING
+			Deliver Invoice
+	Manage Revisions
+		PROJECT MANAGER
+			Manage Comments
+			Manage Revisions
+			Deliver Final
+	Archive Report
+		PRODUCTION COORDINATOR
+			Preserve
+			Purge
+	Collect Payment
+		ACCOUNTING
+			Accounts Payable
+			Accounts Receivable
+	Outreach
+		CSM
+			Measure Satisfaction
+			Resolve Issues
