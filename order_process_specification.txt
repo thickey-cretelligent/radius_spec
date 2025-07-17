@@ -21,7 +21,7 @@ Responsible Party: CLIENT SUCCESS MANAGER
 
 #### 1.3 Price Services 
 Responsible Party: CLIENT SUCCESS MANAGER
-- Generate Internal Estimate
+- Optionally Generate Internal Estimate for Services
 - Submit Request for Quote from Network Resource(s)
 - Review Quotes from Network Resource(s) 
 - Optionally Pre-Staff Services with Network Resource(s)
