@@ -1,5 +1,5 @@
-# RADIUS Project Navigation
-## Project Navigation Controls
+# RADIUS Subject Site Navigation
+## Subject Site Navigation Controls
 - The **Back** button returns the user to the Main screen to begin a new Site Search.
 - The **Map** displayed in the Subject Site swaps display of Street View and the Map in the Subject Site and Content Areas.
 - The **Site Details** button toggles display of the **Site Details** panel in a slide out with the **Site Overview** expanded and visible. [RADIUS Premium Data Specification](https://github.com/thickey-cretelligent/radius_spec/blob/503da4e23aa78ff669c64058bf2d3813163a1588/radius_premium_data_specification.md)
