@@ -1,5 +1,5 @@
-# RADIUS Project Document Center
-## Project Document Center
+# RADIUS Document Center
+## Document Center
 - The Document Center is directly accessible from the Saved Subject Site via the existing **Documents** button. 
 - The Document Center is also accessible during the Order flow.
 - Documents can be added to the Saved Subject Site at any time prior to or during Project execution.
