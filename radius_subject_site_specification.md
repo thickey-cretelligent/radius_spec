@@ -1,4 +1,4 @@
-# RADIUS Subject Site Navigation
+# RADIUS Subject Site Specification
 ## Subject Site Navigation Controls
 - The **Back** button returns the user to the Main screen to begin a new Site Search.
 - The **Map** displayed in the Subject Site swaps display of Street View and the Map in the Subject Site and Content Areas.
