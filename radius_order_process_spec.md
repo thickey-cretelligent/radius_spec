@@ -11,8 +11,9 @@ Note: To align with the concept of a "Project" in TRACKER, the Cart should be re
 - Before initiating a Request for Proposal or placing an order, the system will prompt the user to confirm the Subject Site if not already done.
 
 ## 2. Product Selection
-- Users can add or remove products from the Project at any time.
-- Products are displayed in a ledger-style view within the Project/Cart view.
+- The Product Menu is displayed on the right panel.  
+- Users can add or remove products from the Project at any time by selecting the desired Product from the Product Menu.
+- As they are added, Products are listed within the Subject Site under the Heading "Projects".
 - Required input fields are reserved for collection during the Project checkout flow.
 
 ## 3. Product Categorization
@@ -39,11 +40,15 @@ Note: To align with the concept of a "Project" in TRACKER, the Cart should be re
 - Note: Users can place an order for items in this section without initiating Request for Proposal or waiting for other Proposals still "In Review".
 - Note: Subsequent Product orders can continue to be added to the Project before the final Project invoice is delivered.
 
-## 6. Project Saving & Activity Tracking
+## 6. Payment Collection
+- Users are provided the option to provide Credit Card information via [Need Payment Provider] for Payment.
+- Alternately, clients can be billed upon Project Completion.
+
+## 7. Project Saving & Activity Tracking
 - Users can click **Save** or **Save and Close** at any time to preserve the current Project state.
 - When updates occur (e.g., Proposal status changes to “Quote Ready”):
   - The **Subject Site** moves to the top of the RADIUS Subject Site list with an activity indicator.
   - Within the Subject Site, the relevant Project also displays an activity badge.
 
-## 7. Project Navigation
+## 8. Project Navigation
 - Users can return to any valid Project by first selecting the **Subject Site** and then selecting the desired **Project**.
