@@ -1,53 +1,49 @@
 # Site Verification Specification
 
-### 
+## Site Verification
+Site Verification is performed immediately after Site Identification by an internal resource.  
 
-### Site Verification requirements
 
+### Site Verification Requirements
 * Verify that all adjacent parcels with similar Ownership have been identified.
 * Verify that all Business Operations are contained within the parcel boundaries.
 * Verify that all Parking Areas are contained within the parcel boundaries.
 * Verify that Required Site Data is populated and accurate. (See Service Input Data Requirements Matrix)
 
-### 
+### RADIUS Site Confirmation
+Client is prompted to **Confirm** the site location prior to placing orders or requests for proposal.  Provide the client with similar Site Requirements in RADIUS.  
+- Site Confirmation should be displayed prominently on the Saved Site.
+- Client Confirmation and Internal Site Verification must be performed on each Site.
 
 ### Proposal Phase
-
 Consult Proposals should not be generated, delivered to the client, or awarded until the Site Verification has been completed.
 
+- Following Site identification, the site should be displayed with a Red Triangle indicating that actions are required to proceed with Proposal generation or Award.
+  - Requirements to clear the Red Triangle: 
+    - Site Verified
+    - Land-Use Specified
+    - Client Price Populated
+    - Service Turn around time populated
+  - The Red Triangle hover message should list the Site Verification and Land use population as required elements to clear the Red Triangle.
 
+-  OT User must browse to Site Details to perform Site Verification Requirements and mark the Site as Verified using the Site Verification button on the Site Page.
+
+- The button should open a dialog that details the Site Verification Requirements and provides the user with "Verify" and "Cancel" buttons.  
+  - Clicking "Verify" marks the Site as Verified, clearly indicating the OT User that performed Site Verification.
+  - Clicking "Cancel" closes the dialog without changes.
+
+- The "Generate Proposal" and "Award Proposal" buttons in Quote Manager are enabled once the Site is verified and client price and turn-around have been populated.
 
 ### Order Kick-Off
-
 Orders are delivered to Production with a status of "Not Started". Site Verification must be completed prior to updating the status to "In Progress".  
 
-For Orders (i.e. Click Quote), the Order cannot be moved from “Not Started” to “In Progress” until the Site has been Verified.
+- For Orders (i.e. Click Quote), the Order cannot be moved from “Not Started” to “In Progress” until the Site has been Verified.
 
-The Proposal should not be able to be awarded independently either.
+- The Proposal should not be able to be awarded independently either.
 
+---
 
-
-#### Software Specification
-
-Platform:  TRACKER
-
-Pages: Quote Manager, Site Details
-
-Functions: Generate Proposal, Award Proposal, Site Verification
-
-
-
-Following Site identification, OT User must browse to Site Details to perform Site Verification Requirements and mark the Site as Verified using the Site Verification button on the Site Page.  The button should open a dialog that details the Site Verification Requirements and provides the user with "Verify" and "Cancel" buttons.  Clicking "Verify" marks the Site as Verified, clearly indicating the OT User that performed Site Verification, and enables the "Generate Proposal" and "Award Proposal" buttons in Quote Manager once the order client price and turn-around has been populated.
-
-
-
-The Red Triangle should be visible until the Land Use is populated and the “Site Verification” check box is checked.
-
-
-
-The Red Triangle hover message should list the Site Verification and Land use population as required elements to clear the Red Triangle.
-
-Site Verification process (est total time 3-10 minutes)
+## Site Verification process (est total time 3-10 minutes)
 
 For all projects, we should provide the minimum data needed with the maximum level of accuracy. We should strive to make the process as fast as possible while not dropping below the minimum accuracy level required. We should not provide data that is not determinable to be correct unless there is a significant benefit for Cretelligent to do so, no matter how easy it is to access the data.
 
@@ -67,27 +63,20 @@ Once all parcels are verified, and you’ve determine your have aggregated all o
 
 If an ESA or PCA is part of the quote, add the following:
 
-6. Estimated sq ftg of the facility. Most of the time this can be easily determined. Look at the aerial view and a street view. Then review the footprint sq footage provided in OT. If it is a single story
-
-building the sq ftg should equal the footprint. If it is multiple stories, first look to see if the county data is populated. If it is, see if it appears to be reasonable based on the footprint size and the number of stories on the aerial. If you can’t make a determination, contact the client.
+6. Estimated sq ftg of the facility. Most of the time this can be easily determined. Look at the aerial view and a street view. Then review the footprint sq footage provided in OT. If it is a single story building the sq ftg should equal the footprint. If it is multiple stories, first look to see if the county data is populated. If it is, see if it appears to be reasonable based on the footprint size and the number of stories on the aerial. If you can’t make a determination, contact the client.
 
 7. Current use of the facility. If the client has provided it, compare it to the aerial or street view. If different, contact the client for clarification. Based on their clarification, make a note in the site notes at this time to explain. A new field will be added called SPECIAL SITE DESCRIPTION that will be automatically sent to the vendor(s). This is where the clarification should be placed in the future.
 
 If multi family residential, the following is required:
 
 8. Total number of units (this must be provided by the client)
-
 9. The total percentage of units required to be visited (this is based on the bank or agency requirements)
 
 Next, if the following are easily verifiable, they should be entered as they are helpful to further refine the quote:
 
 10. Total stories
-
 11. Whether there is a large parking deck
-
 12. Total number of buildings
-
 13. Total number of units
-
 14. Year built
 
