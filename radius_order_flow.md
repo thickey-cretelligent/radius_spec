@@ -3,7 +3,7 @@
 Note: To align with the concept of a "Project" in TRACKER, the Cart should be rebranded to "Project".  As such, references in this document to "Building a Project" refer to adding products to the Cart.   
 
 ## 1. Subject Site Confirmation
-- After Users save a new Subject Site, they are encouraged to **Confirm** the Subject Site beginning early in the process.  [Needs Definition]
+- After Users save a new Subject Site, they are encouraged to **Confirm** the Subject Site beginning early in the process. [Site Confirmation](radius_client_site_confirmation_spec.md)
 - Once confirmed, the Subject Site displays a prominent indicator.  
 - Users can begin *Building a Project* by adding products and configuring options prior to site confirmation.
 - Before initiating a Request for Proposal or placing an order, the system will prompt the user to confirm the Subject Site if not already done.
