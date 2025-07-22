@@ -1,7 +1,8 @@
 # RADIUS Order Process Spec
 
+## Overview
 This specification defines the RADIUS Order flow for all non-automated Products using the "Cart".  The intent is to replace all existing order pages with a single consolidated checkout process. 
-Note: To align with the concept of a "Project" in TRACKER, the Cart should be rebranded to "Project".  As such, references in this document to "Building a Project" refer to adding products to the Cart.     
+Note: To align with the concept of a "Project" in TRACKER, the Cart should be rebranded to "Project".  As such, references in this document to "Projects" refer to the Cart.
 
 ## 1. Subject Site Confirmation
 - After Users save a new Subject Site, they are encouraged to **Confirm** the Subject Site beginning early in the process. [Site Confirmation](radius_client_site_confirmation_spec.md)
@@ -20,13 +21,14 @@ Note: To align with the concept of a "Project" in TRACKER, the Cart should be re
   - **Ready To Order**: Products with determined pricing.
 
 ## 4. Request Proposal Workflow
-- Users are guided to select relevant Product Options
+- Users are guided to select relevant Product Options (Those that currently exist on the individual order pages) 
 - Users are guided to provide required input data to successfully Request Proposal [Needs Definition]
-- Once Required inputs are provided, users can click button labeled **“Request Proposal.”**
+- Once required inputs are provided, users can click button labeled **“Request Proposal.”**
 - Products with **ClickQuote** enabled run automatically.
 - Non-ClickQuote enabled products or ClickQuote consults are routed to **Quote Manager** for manual consult.
 - During the manual consult, the Product Proposal Status will be **In Review**
-- Once Proposals are returned the Product Proposal Status will be **Proposal Ready** and the Product will be moved from **Request Proposal** Section to **Ready to Order** with Proposal amount and Turnaround time displayed prominently.
+- Once Proposals are returned the Product Proposal Status will be **Proposal Ready** and the with Proposal amount and Turnaround time displayed prominently.
+- User can click "Accept Proposal" which moves the Proposal from the **Request Proposal** Section to the **Ready to Order** Section. 
 
 ## 5. Ready To Order Workflow
 - Users are guided through a set of both required and optional input fields relative to the array of Products selected. 
