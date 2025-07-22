@@ -1,4 +1,4 @@
-# RADIUS Order Flow: Project-Based Ordering
+# RADIUS Order Process Spec
 
 This specification defines the RADIUS Order flow for all non-automated Products using the "Cart".  The intent is to replace all existing order pages with a single consolidated checkout process. 
 Note: To align with the concept of a "Project" in TRACKER, the Cart should be rebranded to "Project".  As such, references in this document to "Building a Project" refer to adding products to the Cart.     
