@@ -1,7 +1,7 @@
 # RADIUS Document Center
 ## Document Center
 - The Document Center is directly accessible from the Saved Subject Site via the existing **Documents** button. 
-- The Document Center is also accessible during the [Order flow](https://github.com/thickey-cretelligent/radius_spec/blob/ddc8be3eddb82809f56c7af243e78b8bf952bd65/radius_order_flow.md). 
+- The Document Center is also accessible during the Project [Order Flow](radius_order_process_spec.md). 
 - Documents can be added to the Saved Subject Site at any time prior to or during Project execution.
 - The Document Center should use a Drag and Drop style interface.
 - Clients are prompted to identify the Document Category in the standard document upload.

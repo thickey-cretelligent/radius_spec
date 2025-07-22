@@ -1,6 +1,7 @@
 # RADIUS Order Flow: Project-Based Ordering
 
-Note: To align with the concept of a "Project" in TRACKER, the Cart should be rebranded to "Project".  As such, references in this document to "Building a Project" refer to adding products to the Cart.   
+This specification defines the RADIUS Order flow for all non-automated Products using the "Cart".  The intent is to replace all existing order pages with a single consolidated checkout process. 
+Note: To align with the concept of a "Project" in TRACKER, the Cart should be rebranded to "Project".  As such, references in this document to "Building a Project" refer to adding products to the Cart.     
 
 ## 1. Subject Site Confirmation
 - After Users save a new Subject Site, they are encouraged to **Confirm** the Subject Site beginning early in the process. [Site Confirmation](radius_client_site_confirmation_spec.md)
@@ -29,8 +30,8 @@ Note: To align with the concept of a "Project" in TRACKER, the Cart should be re
 
 ## 5. Ready To Order Workflow
 - Users are guided through a set of both required and optional input fields relative to the array of Products selected. 
-- Users are guided to specify Project Contacts in the Contact Center or return later to do so. [Contact Center](radius_contact_center_specification.md)
-- Users are guided to supply Required Documents in the Document Center or return later to do so. [Document Center](radius_document_center_specification.md)
+- Users are guided to specify Project Contacts in the Contact Center or return later to do so. [Contact Center](radius_contact_center_spec.md)
+- Users are guided to supply Required Documents in the Document Center or return later to do so. [Document Center](radius_document_center_spec.md)
 - Users can save progress and return later.
 - User can select one or more **Ready to Order** Products and click Button labeled **Place Order**.
 - Note: Users can place an order for items in this section without initiating Request for Proposal or waiting for other Proposals still "In Review".

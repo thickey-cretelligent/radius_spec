@@ -1,7 +1,7 @@
 # RADIUS In-App Data 
 ---
 ## RADIUS Site Details Feature
-- User can expand or collapse the Site Details Panel by clicking on the "Site Details" button in the [Subject Site](https://github.com/thickey-cretelligent/radius_spec/blob/c1b3af976efcb49c87963799a8f45b02c79ad068/radius_subject_site_navigation.md).
+- User can expand or collapse the Site Details Panel by clicking on the "Site Details" button in the [Subject Site](radius_subject_site_spec.md).
 - Site Details are displayed in an expansion panel that extends to the right of the Subject Site.
 - The Site Detail Panel is composed of Parcel selection tabs and multiple categorical accordion drawers.
   - Parcel Selection
